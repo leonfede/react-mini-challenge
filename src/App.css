@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #d1d1d1;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+
+.u-view-animation {
+  animation: fadeInDown 0.25s ease-out;
+}
+
+@media (max-width: 720px) {
+  .u-hide-on-mb {
+    display: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

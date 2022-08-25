@@ -1,0 +1,20 @@
+.New-person-form__submit-btn {
+  appearance: none;
+  outline: none;
+  margin: 20px 6px 0;
+  width: 100px;
+  color: #fafafa;
+  text-decoration: none;
+  border: 1px solid #cacaca;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: #136ad4;
+  transition: all 0.25s;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.New-person-form__submit-btn:hover {
+  color: #136ad4;
+  background: #fafafa;
+}

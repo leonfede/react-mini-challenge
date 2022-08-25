@@ -1,0 +1,26 @@
+.New-person-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.New-person-form__name-age-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.New-person-form__name-age-section .New-person-form__field:first-child {
+  width: 72.5%;
+}
+
+.New-person-form__name-age-section .New-person-form__field:last-child {
+  width: 22.5%;
+}
+
+.New-person-form__buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

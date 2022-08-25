@@ -1,0 +1,19 @@
+.New-person-form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.New-person-form__label {
+  font-size: 20px;
+  margin: 8px 4px;
+  text-transform: capitalize;
+}
+
+.New-person-form__input {
+  appearance: none;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 6px;
+}
